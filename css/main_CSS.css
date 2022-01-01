@@ -35,7 +35,7 @@
     margin-bottom: 50px;
     width: 200px;
 }
-.subheading_icon p{
+.subheading_icon button{
     position: absolute;
     z-index:2;
     background: rgba(150, 200, 250, 0.5);
@@ -56,4 +56,16 @@
     position: absolute;
     top:10%;
     left: 25%;
+    min-height: 500px;
+    min-width: 850px;
+}
+.text_icon_inner
+{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-45%);
+    height: 450px;
+    width: 800px;
+    /*background: whitesmoke;*/
 }

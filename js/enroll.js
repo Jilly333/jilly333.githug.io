@@ -42,7 +42,7 @@ function en()
         alert("邮箱为空，请重新输入");}
     else{
         alert("用户注册成功！点击返回登录。");
-        document.enroll_form.action = "index.html";
+        document.enroll_form.action = "../index.html";
         document.enroll_form.submit();
     }
 }
