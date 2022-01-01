@@ -9,7 +9,7 @@ function log() {
         alert("密码为空，请重新输入");
     }else{
         //#表示servelet
-        document.login_form.action = "static/main.html";
+        document.login_form.action = "../static/main.html";
         document.login_form.submit();
     }
 }
